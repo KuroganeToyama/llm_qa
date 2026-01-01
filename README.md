@@ -157,8 +157,8 @@ llm_qa/
 - Makes image-heavy pages searchable via AI-generated content
 
 **Text Chunking:**
-- Text is split into overlapping chunks (default: 800 characters)
-- Overlap (default: 150 characters) prevents information loss
+- Text is split into overlapping chunks
+- Overlap prevents information loss
 - Each chunk stores metadata: source file, page number, associated images
 
 **Embedding & Storage:**
